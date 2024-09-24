@@ -8,7 +8,7 @@ b = (a>5)
 print('Le cote du carre est : ',c)
 print('Le perimetre du carre est : ',p )
 print('La surface du carre est : ', a)
-print(b)
+print('a>5 est :',b)
 
 # separation des codes 
 print('------------------------------------------------------')
