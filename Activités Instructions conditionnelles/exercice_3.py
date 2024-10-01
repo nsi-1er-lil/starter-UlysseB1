@@ -1,11 +1,11 @@
-def pokemon_choisi():
-    pokemon1 = 'bulbizar'
-    pokemon2 = 'carapuce'
-    pokemon3 = 'salameche'
-    if pokemon_choisi() == pokemon1:
-        print('Pokemon rival :', pokemon2)
-    elif pokemon_choisi() == pokemon2:
-        print('Pokemon rival', pokemon3)
+def pokemon_choisi(pokemon):
+    if  pokemon == a :
+        print('Pokemon rival : Carapuce')
+    elif pokemon == b:
+        print('Pokemon rival : Salameche')
     else :
-        print('Pokemon rival', pokemon1)
-    print(pokemon1)
+        print('Pokemon rival : Bulbizarre')
+a = 'bulbizar'
+b = 'carapuce'
+c = 'salameche'
+pokemon_choisi(a),pokemon_choisi(b), pokemon_choisi(c)
